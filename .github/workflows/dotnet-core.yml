@@ -22,7 +22,7 @@ jobs:
       run: pwd
       
     - name: Node sass
-      run: cd mslearn-tailspin-spacegame-web |
+      run: cd node-modules |
            node-sass Tailspin.SpaceGame.Web/wwwroot
       
     - name: Setup .NET Core
