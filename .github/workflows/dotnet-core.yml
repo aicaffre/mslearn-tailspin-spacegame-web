@@ -22,7 +22,8 @@ jobs:
       run: pwd
       
     - name: Node sass
-      run: node-sass Tailspin.SpaceGame.Web/wwwroot
+      run: cd node-modules/node-sass |
+           node-sass Tailspin.SpaceGame.Web/wwwroot
       
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
