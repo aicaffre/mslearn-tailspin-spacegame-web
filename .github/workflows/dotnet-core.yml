@@ -21,6 +21,9 @@ jobs:
     - name: pwd
       run: pwd
       
+    - name: ls
+      run: ls
+      
     - name: Node sass
       run: cd node-modules |
            node-sass Tailspin.SpaceGame.Web/wwwroot
