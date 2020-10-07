@@ -15,8 +15,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
       
-  #  - name: NPM Install
-  #    uses: npm install -quiet
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12
       
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
