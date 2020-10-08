@@ -24,9 +24,9 @@ jobs:
     - name: ls
       run: ls
       
-    - name: Node sass
-      run: cd node_modules/node-sass |
-           node-sass Tailspin.SpaceGame.Web/wwwroot
+   # - name: Node sass
+ #    run: cd node_modules/node-sass |
+ #          node-sass Tailspin.SpaceGame.Web/wwwroot
       
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
